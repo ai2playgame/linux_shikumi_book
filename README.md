@@ -2,10 +2,12 @@
 
 ## 初期設定
 
+```
 sudo apt install binutils build-essential golang sysstat fonts-takao fio quemu-kvm virt-manager libvirt-clients virtinst jq docker.io containerd libvirt-daemon-system
 sudo adduser `id -un` libvirt
 sudo adduser `id -un` libvirt-qemu
 sudo adduser `id -un` kvm
+```
 
 ## 参考リポジトリ
 
